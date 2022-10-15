@@ -1,0 +1,10 @@
+version: "3"
+services:
+  nginx-app:
+    container_name: mynginx
+    build:
+      context: .
+      dockerfile: nginx.Dockerfile
+    image: mynginx-demo:latest
+    ports:
+      - 86:80

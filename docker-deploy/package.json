@@ -1,0 +1,13 @@
+{
+  "name": "clark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker": "docker run -p 82:80 --name clark -d mynginx-demo",
+    "docker:compose": "docker-compose -f dev.docker-compose.yaml up -d nginx-app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
